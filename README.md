@@ -1,1 +1,1 @@
-# mini-project
+# Trip Planning Web Application 
