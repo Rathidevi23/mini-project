@@ -1,0 +1,62 @@
+.header-container {
+  background-color: #008080; /* Teal background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title h1 {
+  font-size: 24px;
+  color: #ffffff; /* White text */
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+.header-title h1:hover {
+  color: #66d9d9; /* Lighter teal hover effect */
+}
+
+.header-leftside{
+  display: flex;
+  gap: 12px;
+}
+
+.signup-button,
+.login-button {
+  background-color: #20b2aa; /* Soft teal button background */
+  color: #ffffff;
+  border: 1px solid #008b8b; /* Dark teal border */
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-button:hover,
+.login-button:hover {
+  background-color: #66d9d9; /* Lighter teal on hover */
+  color: #ffffff;
+  border-color: #008080; /* Teal border on hover */
+}
+
+.signup-button:focus,
+.login-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 139, 139, 0.7); /* Glow effect on focus */
+}
+
+.logo {
+  height: 40px;  /* Adjust height as needed */
+  width: auto;    /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+  vertical-align: middle; /* Align with text */
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
